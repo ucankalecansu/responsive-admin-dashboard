@@ -1,7 +1,14 @@
 import "./App.scss";
+import Sidebar from "./Components/SideBar/Sidebar";
+import Body from "./Components/Body/Body";
 
 function App() {
-  return <div>Responsive Admin Dashboard</div>;
+  return (
+    <div className="container">
+      <Sidebar />
+      <Body />
+    </div>
+  );
 }
 
 export default App;
